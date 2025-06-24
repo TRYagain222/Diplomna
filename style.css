@@ -390,3 +390,19 @@ nav ul li a:hover {
 input.invalid, textarea.invalid {
     border-color: red;
 }
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+    .slide img {
+        height: 300px;
+    }
+    .slide-caption h2 {
+        font-size: 1.8em;
+    }
+    .slide-caption p {
+        font-size: 1em;
+    }
+    .prev-slide, .next-slide {
+        padding: 10px 5px;
+        font-size: 1.5em;
+    }
+}
